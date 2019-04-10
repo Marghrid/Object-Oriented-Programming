@@ -1,0 +1,17 @@
+Herança, Composição, Polimorfismo, Overloading, Overriding
+
+Modele e implemente o seguinte problema. Existem três tipos de carro: o modelo
+básico, que não pode ser reconfigurado relativamente ao seu motor de origem (da
+gama Economy); o modelo de gama média, essencialmente um modelo básico que
+permite trocar o motor original por outro (usando ainda motores da gama Economy);
+e o modelo topo de gama, que além de permitir todas as operações do modelo de
+gama média, permite ainda utilizar motores da gama Xtreme. Pode assim, mantendo
+o motor económico, adicionar um novo e possante motor, utilizando ambos os
+motores para maior desempenho. Do ponto de vista de cada carro, o tipo e número
+de motores não são importantes, já que todos fazem o mesmo: ligar (quando o carro
+precisa de andar – liga o(s) motor(es)) e desligar (quando o carro precisa de
+parar – desliga o(s) motor(es)). Considere que os carros apenas disponibilizam os
+métodos de criação, configuração de motores e andar/parar. Considere que ambas as
+gamas de motores fornecem a funcionalidade ligar/desligar. Pode realizar outros
+métodos que julgue necessitar. Evite repetições de código. Contrua uma aplicação
+exemplo (main).

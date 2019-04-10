@@ -1,0 +1,22 @@
+Textos Formatados
+
+Uma aplicação permite visualizar textos, constituídos por palavras marcadas com
+estilos tipográficos. Quando o texto é apresentado, através do método render,
+cada palavra pode aparecer sem qualquer modificação de aspecto (utiliza-se o
+método render correspondente). É possível modificar dinamicamente o aspecto das
+palavras, permitindo que sejam apresentadas em negrito, itálico, sublinhado, ou
+em combinações variadas (e.g. negrito e itálico ou itálico sublinhado, etc.). No
+entanto, a aplicação realiza o processo de apresentação da mesma forma, i.e.,
+através do método render.
+Além de apresentável graficamente, um texto pode ser convertido numa cadeia de
+caracteres, contendo a sua informação textual (std::string). Esta operação é
+realizada através do método text (invocável sobre cada um dos elementos
+designados acima).
+Implemente as classes que permitem representar o texto completo, as palavras e
+respectivas modificações gráficas. Implemente ainda uma aplicação que ilustre o
+comportamento. Represente as características gráficas da seguinte forma:
+
+normal:       <span>normal</span>
+negrito:      <b>negrito</b>
+itálico:      <i>itálico</i>
+sublinhado:   <u>sublinhado</u>

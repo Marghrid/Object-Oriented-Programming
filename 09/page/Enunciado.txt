@@ -1,0 +1,9 @@
+Uma página é constituída por vários elementos, que podem, ou não, ter eles
+próprios estrutura: imagens (são elementos atómicos que representam entidades
+gráficas); blocos de texto (elementos atómicos que apenas podem conter texto);
+figuras (contêm uma ou mais imagens e podem ter uma legenda - um bloco de texto);
+parágrafos (podem vários blocos de texto). A página pode conter um ou mais
+elementos dos apresentados anteriormente. Todos os elementos implementam o
+método render, que permite apresentar a página. Escreva um método main que crie
+uma página e lhe adicione múltiplos elementos, por forma a permitir exemplificar
+a funcionalidade.

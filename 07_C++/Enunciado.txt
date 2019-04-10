@@ -1,0 +1,14 @@
+Concretize o seguinte problema em C++, definindo as classes que achar necessárias.
+Uma folha de cálculo tem células que podem conter números, cadeias de caracteres,
+fórmulas e referências para valores de outras células (linha e coluna).
+
+As fórmulas têm argumentos que podem ser números, cadeias de caracteres,
+resultados da avaliação de outras fórmulas e referências para valores de células.
+
+Todos os elementos da folha (incluindo a própria folha) podem ser apresentados na saída padrão (std::cout).
+O conteúdo das células pode ser comparado com o operador “menor” (operator<).
+Os valores são comparados com base nas suas chaves: o valor, se forem numéricas, e 0 (zero)
+se forem cadeias de caracteres.
+
+As fórmulas têm a comparação associada ao seu tipo de cálculo (numérico ou cadeia de caracteres).
+As referências têm a mesma chave 	que a célula referenciada.

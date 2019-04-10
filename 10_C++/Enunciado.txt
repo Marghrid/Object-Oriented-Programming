@@ -1,0 +1,17 @@
+State (padrão de desenho)
+Uma máquina de lavar tem um mecanismo que gere a abertura da porta, por forma a
+evitar acidentes com crianças. A máquina tem os seguintes botões e sensores:
+botão “ligar/desligar” (chama o método power); botão “abrir porta” (método open);
+sensor “porta fechada” (método closed). A máquina tem ainda um temporizador que
+emite um impulsos a cada segundo (por cada impulso é chamado o método tick). A
+máquina apenas pode ser ligada (botão “ligar/desligar”) se a porta estiver
+fechada: a máquina arranca e apenas pára quando o número de impulsos for igual a
+5400 ou quando o botão “ligar/desligar” for premido, interrompendo a lavagem.
+Quer num caso, quer noutro, a máquina não permite abertura imediata da porta: é
+necessário esperar 120 impulsos para que a máquina reaja ao botão “abrir porta”
+(durante o tempo de espera, o botão “ligar/desligar” é ignorado). Caso a porta
+tenha sido fechada, mas não se tenha iniciado a lavagem, a abertura da porta é
+imediata. A máquina está inicialmente desligada e a porta está aberta.
+
+Represente a abertura da porta através da impressão de uma cadeia de caracteres.
+Implemente todas as classes da máquina de lavar com controlador de segurança.

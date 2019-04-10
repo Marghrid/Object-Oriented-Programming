@@ -1,0 +1,13 @@
+Composite (padrão de desenho)
+
+Uma página (Page) é constituída por parágrafos (Paragraph), cada um dos quais
+contém uma ou mais linhas de texto (Span) e/ou imagens (Image). Os conceitos
+podem estar aninhados: as páginas podem conter outras páginas e os parágrafos
+podem conter páginas ou outros parágrafos. Todos os elementos implementam o
+método render, que produz representações XML, como se indica abaixo. Uma página
+começa com <page> e termina com </page>, sendo listadas entre as marcas as
+representações correspondentes aos elementos internos. Analogamente, os
+parágrafos são delimitados por <p> e </p>; as linhas são delimitadas por <span>
+e </span> (o texto é representado por TEXT); e as imagens são marcadas por
+<img src="IMG"/>. Escreva uma função main (e todas as classes auxiliares) que
+ilustre o funcionamento para o seguinte caso:

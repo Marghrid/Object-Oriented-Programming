@@ -1,0 +1,14 @@
+Herança, Composição, Polimorfismo, Overloading, Overriding
+
+Modele e implemente a classe Table que contém um número fixo de inteiros
+(especificado na altura da criação das suas instâncias). Essa classe possui um
+método (print) que permite imprimir todo o conteúdo, aplicando um formato a cada
+valor. O formato aplicado por print varia de acordo com o tipo de “impressora”
+(objecto do tipo Printer, passados como argumento de print). As potenciais
+impressoras têm um método format (aceita um inteiro e devolve uma cadeia de
+caracteres – tipo std::string) que permite apresentar um valor inteiro de uma
+forma específica para cada impressora. Defina os conceitos Table e Printer.
+Defina ainda duas impressoras: uma que formata cada inteiro entre parânteses
+rectos (BracketsPrinter); e outra que repita cada valor duas vezes cada um dos
+valores da tabela (DuplicatePrinter). Pode realizar outros conceitos/métodos que
+julgue necessitar. Evite repetições de código.

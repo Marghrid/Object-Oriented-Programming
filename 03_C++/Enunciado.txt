@@ -1,0 +1,17 @@
+Modelação Básica, Construção de Objectos, Herança
+
+Considere o conceito de animal, contendo as propriedades idade e nome. Considere
+ainda as especializações deste conceito: cão e gato. Os conceitos cão e gato têm,
+respectivamente, o peso e o número de vidas como propriedades adicionais.
+Considere que todos os animais dormem, mas que apenas os gatos trepam e que
+apenas os cães ladram. Implemente em C++ as classes que representam os conceitos:
+cada método dos anteriores deve ser implementado simplesmente com uma instrução
+que apresente uma cadeia de caracteres descritiva da acção. Implemente ainda as
+funções que permitem comparar instâncias para cada uma das classes (operator==),
+assim como as funções de linearização textual (operator<<). Os animais genéricos 
+podem ser inicializados especificando-se apenas a idade (neste caso, o nome é 
+vazio), mas podem ser também inicializados especificando-se ambas as propriedades
+(a acção para a idade é idêntica à anterior). Os cães e os gatos são sempre
+inicializados com explicitação das suas respectivas propriedades, i.e., idade, 
+nome e peso ou número de vidas (conforme o caso). Construa uma aplicação (main) 
+que ilustre a utilização das classes.

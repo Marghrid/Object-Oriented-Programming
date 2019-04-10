@@ -1,0 +1,16 @@
+Classes Abstractas, Polimorfismo
+
+Uma agência de apoio humanitário organiza a sua actuação em função dos seus
+beneficiários: regiões, povoações e indivíduos (uma região contém povoações ou
+indivíduos isolados e as povoações contêm indivíduos). Cada tipo de beneficiário
+regista o nível de apoio recebido (um valor inteiro). Este valor é utilizado
+pela agência para determinar quais as regiões, as povoações, ou os indivíduos
+mais carenciados. Quando uma região recebe uma ajuda, divide-a igualmente por
+todos os seus membros (o mesmo acontecendo com as povoações), independentemente
+de serem colectivos ou individuais. Quando os beneficiários são interrogados
+sobre o total de ajudas, respondem com a agregação das ajudas das suas
+comunidades (beneficiários colectivos) ou com o valor da ajuda total recebida
+(no caso dos indivíduos). Escreva uma aplicação que demonstre a utilização dos
+conceitos mencionados acima (devem também ser necessariamente implementados,
+para a aplicação ter significado) e o modo de funcionamento das ajudas. Preste
+especial atenção aos aspectos de gestão de memória e polimorfismo.

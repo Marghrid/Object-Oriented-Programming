@@ -1,0 +1,32 @@
+Visitor (padrão de desenho)
+
+Uma agência de cobrança de impostos tornou-se famosa por permitir adaptar
+métodos de cálculo de impostos de forma muito flexível. Os contribuintes
+(Taxpayer) são pessoas (Person), empresas (Company) e regiões (Region). As
+pessoas trabalham nas empresas e as empresas estão sediadas em regiões. Todos
+têm rendimentos (as pessoas e as regiões a partir das empresas e as empresas a
+partir de pessoas, regiões e outras empresas) e todos pagam impostos.
+O sucesso da agência advém da facilidade com que cria variações do seu produto
+de cálculo de impostos, o premiado FlexyIRS. Este produto permite interrogar
+cada contribuinte de forma adaptada, tanto ao contribuinte, como à situação de
+cálculo desejada, sem ser necessário proceder a alterações no código já
+desenvolvido. A versão mais comum da cálculo de impostos FlexyIRS é implementada
+por CommonTax. Nesta versão, cada pessoa paga uma unidade monetária, cada
+empresa paga o equivalente à soma das contribuições individuais dos seus
+empregados e cada região paga o equivalente à soma das contribuições das
+empresas nela sediadas.
+Com o objectivo de fomentar o empreendedorismo, criou-se um novo método de
+cálculo de impostos: o FastTrack. Este método agrega, como o CommonTax, as
+contribuições parcelares. No entanto, são aplicados descontos nos impostos às
+regiões que tenham pelo menos uma empresa com menos de 10 empregados (20% de
+desconto) e às empresas que tenham menos de 4 empregados (40% de desconto). Os
+contribuintes individuais (pessoas) não têm qualquer benefício fiscal.
+
+Implemente as classes do Composite Taxpayer, Person, Company e Region. Considere
+apenas as seguintes características: relações estruturais entre as classes
+(relações sob a forma de herança/implementação e agregação/composição/atributos);
+métodos accept. Não implementar relações funcionais (construtores, outros
+métodos, etc.).
+Implemente completamente a interface FlexyIRS e a classe FastTrack.
+Não desenhar diagrama de classes UML.
+Não implementar o método main nem a classe CommonTax.

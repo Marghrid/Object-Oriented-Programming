@@ -1,0 +1,6 @@
+This is a file.
+It has text.
+It is a very bad file.
+Because it should obviously have cats.
+This is the last line.
+Bye.

@@ -1,0 +1,15 @@
+Utilizando as classes ObjectOutputStream, FileOutputStream e
+BufferedOutputStream, crie um programa que escreva num ficheiro instâncias de um
+conceito Gato (idade – inteiro, peso – vírgula flutuante de dupla precisão,
+nome – cadeia de caracteres). Os objectos devem ser guardados como um todo,
+i.e., deve ser possível recuperá-los como unidades. Para tal, a classe Gato deve
+implementar a interface Serializable.
+Reabra o ficheiro e apresente os valores anteriormente escritos (leia-os
+utilizando ObjectInputStream, FileInputStream e BufferedInputStream).
+As classes ObjectInputStream e ObjectOutputStream disponibilizam,
+respectivamente, métodos para leitura e escrita de objectos que sejam instâncias
+de tipos serializáveis: readObject e writeObject. O primeiro pode lançar
+ClassNotFoundException, InvalidClassException, StreamCorruptedException,
+OptionalDataException, IOException. O segundo pode lançar InvalidClassException,
+NotSerializableException e IOException.
+Não se esqueça de tratar as excepções e de fechar os ficheiros.

@@ -1,0 +1,18 @@
+Entradas e Saídas em C++, operadores de escrita e leitura
+
+Considere uma classe Cat (não é necessário implementá-la). Considere que a
+classe Cat tem atributos idade (_age) e nome (_name). Considere que os
+construtores de Cat são tais que um (o de omissão) inicia um gato com idade 0 e
+nome “anónimo”; e outro que aceita os valores para os atributos mencionados como
+argumentos. Considere que os métodos de acesso (getters e setters)
+estão definidos.
+Escreva os operadores operator<< (escrita de um gato para um std::ostream) e
+operator>> (leitura de um gato de um std::istream). Este operador é simétrico do
+de escrita e já está definido para tipos primitivos e pré-definidos
+(e.g., std::string). A definição para novos tipos faz-se por aplicação sucessiva
+aos vários campos.
+Escreva a função main que execute as seguintes operações: (1) cria dois gatos
+(“Tareco” com 2 anos e “Pantufa” com 6 meses); (2) escreve os gatos para um
+std::stringstream; (3) cria dois gatos não inicializados; (4) recupera os dois
+primeiros gatos do stream para os objectos recém criados (que não estavam
+inicializados) e; (6) apresenta-os na saída (std::cout).

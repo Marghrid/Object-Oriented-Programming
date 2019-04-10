@@ -1,0 +1,13 @@
+Loja
+
+Uma loja mantém registos acerca dos seus clientes: número de cliente, nome,
+contacto, data de nascimento e data da primeira compra. Mantém também um registo
+de cada compra que o cliente realizou ao longo tempo: data da compra, valor da
+compra, tipo de produto adquirido e modo de pagamento (dinheiro, cartão de
+débito, cartão de crédito bancário ou cartão de compras da loja). A loja dá
+prémios de fidelidade aos seus clientes, sob a forma de descontos. No final de
+cada ano, a loja precisa de produzir relatórios em função dos clientes. Assim,
+deve ser possível obter, com relativamente pouco esforço, diversas listas de
+clientes com base em critérios julgados interessantes (segmento etário, segmento
+por compras acumuladas, etc.).
+Concretize as classes deste problema em C++, definindo as que achar necessárias.

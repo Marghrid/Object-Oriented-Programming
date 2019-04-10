@@ -1,0 +1,15 @@
+Considere uma caderneta de cromos. Os cromos têm um número e uma imagem. Não é
+necessário modelar a imagem, considere a imagem como sendo uma instância da
+seguinte classe:
+
+class Image { /* conteúdo omitido */ }
+
+A caderneta guarda os cromos pela ordem de numeração e não permite guardar
+cromos repetidos. É possível adicionar cromos a uma caderneta (método add) e é
+possível remover um cromo se for indicado o seu número (método remove). Duas
+cadernetas dizem-se iguais (equals) se tiverem o mesmo número de cromos
+(independentemente das características dos cromos individuais). É possível obter
+uma lista ordenada (por número) contendo os cromos de uma caderneta (método
+getAll).
+Modele e implemente as classes dos cromos (Card) e da caderneta (Album) (pode
+utilizar classes do pacote de colecções do Java).
